@@ -39,9 +39,13 @@ end
 %% Reframing data matrix
 Data = EEG.data';
 rowNums = size(Data,1);
-labels = zeros(rowNums,1);
-Data = [Data,labels];
+labels = cell(rowNums,1);
+for i = 1: length(labels)
+    labels{i,1} = 'NA';
+end  
 Data = num2cell(Data);
+Data = [Data,labels];
+
 finish_indices = find(strcmp({EEG.event.type}, 'Finish'));
 %%deleting Finish event rows
 Event = EEG.event;
@@ -59,10 +63,11 @@ end
 for i = 1:length(End_indices)
     index = End_indices(i);
     trigger_time  = floor(Event(index).latency);
+    disp(trigger_time);
     Data{trigger_time,65} = 'End';
 end    
 
-%% labeling intervals
+%% :Labeling intervals
 for task = 1:length(Tasks)
     label = Tasks(task);
     
@@ -79,6 +84,11 @@ for task = 1:length(Tasks)
     end  
 
 end
+
+%% Removing unlabeled data
+unlabeled_data = find(strcmp({Data{:,65}}, 'NA'));
+Data(unlabeled_data,:) = [];
+
 
 
 
