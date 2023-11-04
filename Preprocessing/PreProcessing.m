@@ -11,8 +11,7 @@ Block_Start = 1;
 eeg = []
 b = 2;
 path = ['\000', num2str(b), '.vhdr'];
-% path2 = '0003.vhdr'
-% Data = [];
+
 EEG = [];
 
 %% Load Data
@@ -29,25 +28,12 @@ EEG = pop_resample(EEG,freq);
 %% Adjusting the event type names
 Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
 
-%% Extracting epochs, removing baseline, and merging the classes
+%% Reframing data matrix
 
-
-%     for i = 1:1
-% %         data = pop_epoch(EEG, {Names(1)},[-0.494 3.994]);
-%         data = pop_epoch(EEG, events, 'eventtype', 'boundary', 'durations', durations);
-%         data = pop_rmbase(data,[],[],[]);
-%         if i == 1
-%             Epochs = data;
-%         else
-%             Epochs = pop_mergeset(Epochs, data, 1);
-%         end
-%     end
-%     pop_saveset(Epochs, ['E:\Master\Terms\Term3\Theisi\me\DataPlaying\P2\PTB - 2\Test2\output\T', num2str(02)]);
-
-
-
-
-
+Data = EEG.data';
+rowNums = size(Data,1);
+labels = zeros(rowNums,1);
+Data = [Data,labels];
 
 
 %% Temp
@@ -113,7 +99,7 @@ Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
 % disp(class(EEG.event.code))
 
 
-%% Adjusting event delays
+%%Adjusting event delays
 % EEG = ChangeEventLatency(EEG, delay);
 
 
@@ -138,8 +124,8 @@ Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
 %     end
 
 
-epoch_start = 2;   % 2000 ms = 2 seconds
-epoch_end = 2.5;   % 2500 ms = 2.5 seconds
+% epoch_start = 2;   % 2000 ms = 2 seconds
+% epoch_end = 2.5;   % 2500 ms = 2.5 seconds
 
 % Create epochs based on the defined time range
 % EEG = pop_epoch(EEG, {"Feet"}, [-0.1,7.9]);
