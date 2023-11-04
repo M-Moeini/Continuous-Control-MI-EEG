@@ -29,6 +29,30 @@ EEG = pop_resample(EEG,freq);
 %% Adjusting the event type names
 Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
 
+%% Extracting epochs, removing baseline, and merging the classes
+
+
+%     for i = 1:1
+% %         data = pop_epoch(EEG, {Names(1)},[-0.494 3.994]);
+%         data = pop_epoch(EEG, events, 'eventtype', 'boundary', 'durations', durations);
+%         data = pop_rmbase(data,[],[],[]);
+%         if i == 1
+%             Epochs = data;
+%         else
+%             Epochs = pop_mergeset(Epochs, data, 1);
+%         end
+%     end
+%     pop_saveset(Epochs, ['E:\Master\Terms\Term3\Theisi\me\DataPlaying\P2\PTB - 2\Test2\output\T', num2str(02)]);
+
+
+
+
+
+
+
+%% Temp
+
+
 
 % for i = 1:num_events
 %     EEG = ChangeEventName(EEG, Names(i));
@@ -177,24 +201,6 @@ epoch_end = 2.5;   % 2500 ms = 2.5 seconds
 % disp(eventA_indices)
 
 
-
-
-
-
-%% Extracting epochs, removing baseline, and merging the classes
-
-
-%     for i = 1:1
-% %         data = pop_epoch(EEG, {Names(1)},[-0.494 3.994]);
-%         data = pop_epoch(EEG, events, 'eventtype', 'boundary', 'durations', durations);
-%         data = pop_rmbase(data,[],[],[]);
-%         if i == 1
-%             Epochs = data;
-%         else
-%             Epochs = pop_mergeset(Epochs, data, 1);
-%         end
-%     end
-%     pop_saveset(Epochs, ['E:\Master\Terms\Term3\Theisi\me\DataPlaying\P2\PTB - 2\Test2\output\T', num2str(02)]);
 
 
 
