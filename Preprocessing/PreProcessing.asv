@@ -15,7 +15,7 @@ b = 2;
 path = ['\000', num2str(b), '.vhdr'];
 triggers = ["Begin","End"];
 Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
-Tasks = ["Feet","Mis","Tongue","Hand","Rest"];
+Tasks = ["Feet","Mis","Tongue","Hand","]
 
 EEG = [];
 
@@ -47,7 +47,10 @@ finish_indices = find(strcmp({EEG.event.type}, 'Finish'));
 Event = EEG.event;
 Event(finish_indices) = [];
 
-%% Labeling start and end point of trials
+%% Labeling sample points
+s = sample_point_before_trigger;
+
+%%labeling start and end of trials with Beggin and End
 Begin_indices = find(strcmp({Event.type}, 'Begin'));
 End_indices = find(strcmp({Event.type}, 'End'));
 for i = 1:length(Begin_indices)
@@ -62,24 +65,22 @@ for i = 1:length(End_indices)
     Data{trigger_time,65} = 'End';
 end    
 
-%% labeling intervals
-for task = 1:length(Tasks)
-    label = Tasks(task);
+%%labeling intervals
+%% Fetching
+tasks_indices = find(strcmp({Event.type}, 'Feet'));
+for j = 1:length(task_indices)
+    lower_bound = task_indices(i);
+    upper_bound = task_indices(i)+1;
     
-    for index = 1:length(tasks_indices)
-        lower_bound = floor(Event(tasks_indices(index)).latency) ;
-        upper_bound = floor(Event(tasks_indices(index)+1).latency);
-        
+    for row = lower_bound:upper_bound-1
+        Data{row,65} = label;
+    end
+    
+    
+    
+end    
 
-        for row = lower_bound:upper_bound-1
-            Data{row,65} = label;
-        end
-
-    end  
-
-end
-
-
+disp(Feet_indices);
 
 
 
