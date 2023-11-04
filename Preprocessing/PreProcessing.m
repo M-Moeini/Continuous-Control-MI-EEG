@@ -66,6 +66,7 @@ end
 for task = 1:length(Tasks)
     label = Tasks(task);
     
+    tasks_indices = find(strcmp({Event.type}, label));
     for index = 1:length(tasks_indices)
         lower_bound = floor(Event(tasks_indices(index)).latency) ;
         upper_bound = floor(Event(tasks_indices(index)+1).latency);
