@@ -33,7 +33,7 @@ EEG = pop_resample(EEG,freq);
 
 %% Adjusting the event type names
 Names = ["Begin","Finish","End", "Tongue","Feet","Hand","Mis", "Rest"];
-NamesNew = ["Bi","Fi","En","To","Fe","Ha","Si","Re"];
+
 
 % for i = 1:num_events
 %     EEG = ChangeEventName(EEG, Names(i));
