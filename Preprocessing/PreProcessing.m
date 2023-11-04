@@ -16,12 +16,7 @@ path = ['\000', num2str(b), '.vhdr'];
 EEG = [];
 
 %% Load Data
-% data1 = pop_loadbv('E:\Master\Terms\Term3\Theisi\Data\Recordings\Phase 1\Raw Data\P2\', path2);
-
 EEG = pop_loadbv('F:\Participants\P1\', path);
-% % EEG = pop_chanedit(EEG,'append',63,'changefield', {64, 'labels', 'FCz'},'lookup', locpath, 'setref', {'1:63', 'FCz'});
-% %     REF = struct('labels',{'FCz'},'type',{'REF'},'theta',{-89.2133},'radius',{0.095376},'X',{0.3761},'Y',{27.39},'Z',{88.668}, 'sph_theta',{89.2133},'sph_phi',{72.8323},'sph_radius',{92.8028},'urchan',{63},'ref',{''},'datachan',{0});
-% %     EEG = pop_reref(EEG, 'FP1', 'keepref', 'on', 'refloc', REF);
 %% Re-referencing the data       
 EEG = pop_chanedit(EEG, 'append', 63, 'changefield', {64, 'labels', 'FCz'}, 'lookup', locpath, 'setref', {'1:63', 'FCz'});
 REF = struct('labels',{'FCz'},'type',{'REF'},'theta',{-89.2133},'radius',{0.095376},'X',{0.3761},'Y',{27.39},'Z',{88.668}, 'sph_theta',{89.2133},'sph_phi',{72.8323},'sph_radius',{92.8028},'urchan',{64},'ref',{''},'datachan',{0});
