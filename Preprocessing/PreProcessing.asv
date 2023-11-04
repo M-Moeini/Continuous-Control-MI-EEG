@@ -42,12 +42,13 @@ labels = zeros(rowNums,1);
 Data = [Data,labels];
 finish_indices = find(strcmp({EEG.event.type}, 'Finish'));
 %%deleting Finish event rows
-Event = EEG.event;
-Event(finish_indices) = [];
-
+disp(size(EEG.event.type));
+EEG.event([4], :) = []; 
+Eevent = EEG.event;
 %% Labeling sample points
 s = sample_point_before_trigger;
 
+disp(eventB_indices);
 
 % for i = 1:length(triggers)
 %     
