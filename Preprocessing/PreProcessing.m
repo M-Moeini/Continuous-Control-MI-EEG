@@ -4,7 +4,7 @@ clear;
 Num_Blocks = 7;
 Participant_Num = 2;
 num_events = 8;
-sampling_rate = 500;
+sampling_rate = 250;
 sample_time_before_trigger = 0.2;
 sample_point_before_trigger = sample_time_before_trigger*sampling_rate;
 delay = 250;
@@ -40,6 +40,7 @@ Data = EEG.data';
 rowNums = size(Data,1);
 labels = zeros(rowNums,1);
 Data = [Data,labels];
+Data = num2cell(Data);
 finish_indices = find(strcmp({EEG.event.type}, 'Finish'));
 %%deleting Finish event rows
 Event = EEG.event;
@@ -47,6 +48,26 @@ Event(finish_indices) = [];
 
 %% Labeling sample points
 s = sample_point_before_trigger;
+
+%%labeling start and end of trials with Beggin and End
+Begin_indices = find(strcmp({Event.type}, 'Begin'));
+End_indices = find(strcmp({Event.type}, 'End'));
+for i = 1:length(Begin_indices)
+    index = Begin_indices(i);
+    trigger_time  = floor(Event(index).latency);
+    Data{trigger_time,65} = 'Begin';
+end   
+
+for i = 1:length(End_indices)
+    index = End_indices(i);
+    trigger_time  = floor(Event(index).latency);
+    Data{trigger_time,65} = 'End';
+end    
+
+
+
+
+
 
 
 % for i = 1:length(triggers)
@@ -58,8 +79,8 @@ s = sample_point_before_trigger;
 
 
 
-disp(EEG.event(2).latency);
-disp(floor(EEG.event(2).latency));
+% disp(EEG.event(2).latency);
+% disp(floor(EEG.event(2).latency));
 
 %% Temp
 
