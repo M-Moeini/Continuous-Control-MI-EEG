@@ -1,1 +1,2 @@
 participant,class1,class2,running_time,test_acc,train_acc,test_size,train_size,train_block,test_block,test_acc_vote
+14,Hand,Rest,55.27051901817322,0.8660714285714286,1.0,"(112, 64, 1000)","(84, 64, 1000)",123,4567,0.8303571428571428
