@@ -1,0 +1,16 @@
+[I 2024-02-10 16:41:01.704 ServerApp] Jupyter Server 2.12.4 is running at:
+[I 2024-02-10 16:41:01.704 ServerApp] http://localhost:8888/lab?token=7eccefbf8202a75376dfe67042d46440d05f5c0934debe0d
+[I 2024-02-10 16:41:01.704 ServerApp]     http://127.0.0.1:8888/lab?token=7eccefbf8202a75376dfe67042d46440d05f5c0934debe0d
+[I 2024-02-10 16:41:01.704 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2024-02-10 16:41:01.721 ServerApp]
+
+    To access the server, open this file in a browser:
+        file:///home/mahdi146/.local/share/jupyter/runtime/jpserver-31599-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/lab?token=7eccefbf8202a75376dfe67042d46440d05f5c0934debe0d
+        http://127.0.0.1:8888/lab?token=7eccefbf8202a75376dfe67042d46440d05f5c0934debe0d
+[I 2024-02-10 16:41:01.803 ServerApp] Skipped non-installed server(s): bash-language-server, dockerfile-language-server-nodejs, javascript-typ
+escript-langserver, jedi-language-server, julia-language-server, pyright, python-language-server, python-lsp-server, r-languageserver, sql-lan
+guage-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vsco
+de-json-languageserver-bin, yaml-language-server
+
