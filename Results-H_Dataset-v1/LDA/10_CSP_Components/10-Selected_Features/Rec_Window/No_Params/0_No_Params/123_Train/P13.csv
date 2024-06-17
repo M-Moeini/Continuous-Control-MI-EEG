@@ -1,0 +1,5 @@
+participant,class1,class2,running_time,test_acc,train_acc,test_size,train_size,train_block,test_block,test_acc_vote
+13,Hand,Rest,18.393532752990723,0.9642857142857144,1.0,"(28, 64, 1123)","(84, 64, 1123)",123,28 randomly chosen!,1.0
+13,Feet,Rest,18.056164741516113,1.0,0.988095238095238,"(28, 64, 1123)","(84, 64, 1123)",123,28 randomly chosen!,1.0
+13,Tongue,Rest,17.455283403396606,0.9642857142857144,1.0,"(28, 64, 1123)","(84, 64, 1123)",123,28 randomly chosen!,1.0
+13,Mis,Rest,17.61927032470703,1.0,0.9761904761904762,"(28, 64, 1123)","(84, 64, 1123)",123,28 randomly chosen!,1.0
