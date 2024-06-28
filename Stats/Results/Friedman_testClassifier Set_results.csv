@@ -1,0 +1,2 @@
+Friedman Test Statistic,P-value,alpha,Significance
+25.19999999999999,3.372015234139203e-06,0.05,There are significant differences between the classifiers (reject the null hypothesis).
