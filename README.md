@@ -1,4 +1,4 @@
-# Continuous Control-MI EEG
+# Continuous Control Long MI EEG Investigation in Active BCI Systems
 **Note**: The detailed explanations and protocols will be shared upon the acceptance and publication of the associated research paper.
 
 ## Overview
