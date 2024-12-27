@@ -95,9 +95,9 @@ Hit the play to see!
       - **Friedman Test Results**:
       - **Nemenyi Posthoc Test Results**:
         
-  - **5- Compariosn of MI Tasks in the Optimal Configuration**:
+   - **5- Compariosn of MI Tasks in the Optimal Configuration**:
       - **Friedman Test Results**:
-
+   
    - **6- Compariosn of Feature Set Size**:
       - **Wilcoxon Test Results**:
    
@@ -105,7 +105,7 @@ Hit the play to see!
       - **Friedman Test Results**:
       - **Pearson Test Results**:
     
-  - **8- Compariosn of Control Paradigm**:
+   - **8- Compariosn of Control Paradigm**:
       - **Mann-Whitney U Test Results**:
 
 
