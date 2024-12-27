@@ -17,50 +17,57 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 ---
 
 ## Experimental Protocol
-![Participant Results](path/to/your/git/repo/results/participant_results.png)
+![Experimental Protocol](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/EP.png)
 
 ---
 
 ## Results
 
-1. **Optimal MI Task**:
-   - Classification accuracy for each task.
-   - Statistical results and participant feedback.
-   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
-   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+1. **MI Tasks Comparison**:
+   - Comparison of 4 MI tasks used in terms of classification accuracy.
+   - Participant feedback on these MI tasks.
+
+   ![Classification accuracy](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MI-C.png)
+   ![Participant feedback](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TP-C.png)
 
 2. **Training Data Requirements**:
    - Determine the minimum amount of training data needed for optimal performance.
 
-   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+   ![Training Data](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TB-C.png)
+
+3. **Epoching, classifiers and Number of Features Comparison**:
+   -  Compare Epoching, classifiers and Number of Features.
+
+   ![Training Data](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/WCF-C.png)
+
 
 3. **Optimal Configuration**:
-   - Best configuration based on classification accuracy and statistical analysis.
+   - Best configuration for an online MI-BCI system based on classification accuracy, statistical analysis and the amount of time for training.
 
-   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+   ![Optimal Configuration](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-C.png)
 
 4. **Participant Results**:
    - Results summary for all participants on the optimal system.
 
-   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+   ![Participant Results](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-R.png)
 
 5. **Misclassification Chart**:
    - Visualization of misclassification trends.
 
-   ![Misclassification Chart](path/to/your/git/repo/results/misclassification_chart.png)
+   ![Misclassification Chart](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MISS-R.png)
 
 6. **Switch vs Continuous Comparison**:
    - Comparative results between the two paradigms.
 
-   ![Switch vs Continuous](path/to/your/git/repo/results/switch_vs_continuous.png)
+   ![Switch vs Continuous](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-C.png)
+   ![Switch vs Continuous Table](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-Table-C.png)
 
 7. **Task Difficulty Ratings**:
-   - Participant difficulty ratings (scale: 1-5).
+   - Participant difficulty ratings results (scale: 1-5).
 
-8. **Task Preference Analysis**:
-   - Percentage of participants whose favorite task aligns with their best performance.
+   ![TDRQ](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TDRQ-C.png)
 
-   ![Task Preference](path/to/your/git/repo/results/task_preference.png)
+
 
 ---
 
@@ -72,7 +79,7 @@ The discussion section will be made available after the paper submission.
 ## License and Copyright
 
 ### Copyright
-This repository and its contents are copyright © [Your Name or Organization], 2024. All rights reserved.
+This repository and its contents are copyright © Mahdi Moeini, 2024. All rights reserved.
 
 ### Usage Restrictions
 Unauthorized use, reproduction, or distribution of this work is strictly prohibited. Any misuse, reproduction, or distribution without explicit written permission will be met with legal consequences to the fullest extent of the law.
