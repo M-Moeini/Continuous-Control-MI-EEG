@@ -17,7 +17,7 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 ---
 
 ## Experimental Protocol
-(Details to be added after paper submission.)
+![Participant Results](path/to/your/git/repo/results/participant_results.png)
 
 ---
 
@@ -26,12 +26,18 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 1. **Optimal MI Task**:
    - Classification accuracy for each task.
    - Statistical results and participant feedback.
+   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
 
 2. **Training Data Requirements**:
    - Determine the minimum amount of training data needed for optimal performance.
 
+   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
+
 3. **Optimal Configuration**:
    - Best configuration based on classification accuracy and statistical analysis.
+
+   ![Participant Results](path/to/your/git/repo/results/participant_results.png)
 
 4. **Participant Results**:
    - Results summary for all participants on the optimal system.
