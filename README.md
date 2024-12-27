@@ -17,7 +17,7 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 ---
 
 ## Experimental Protocol
-![Experimental Protocol](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/EP.png)
+![Experimental Protocol](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/EP.png)
 
 ---
 
