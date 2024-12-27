@@ -9,7 +9,8 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 
 **Recording Session**:
 Hit the play to see!
- - ![EEG-Recording](https://private-user-images.githubusercontent.com/79001628/398819334-02ca060d-524d-43c6-a69d-f96f13dfa2b7.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzUyNjA1NTcsIm5iZiI6MTczNTI2MDI1NywicGF0aCI6Ii83OTAwMTYyOC8zOTg4MTkzMzQtMDJjYTA2MGQtNTI0ZC00M2M2LWE2OWQtZjk2ZjEzZGZhMmI3Lm1wND9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjI3VDAwNDQxN1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWVlZDQ3M2UyNjQyMzdjYjVlYTYyMTczMTMwOTkxZmQ4OGNhNTQwODcxMjk5NDUyNjI3MTIzZGJiNjY3MGQ5ZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.SnnC2B9MmHjAeqQVERFqv4DkYcv7z1On-kGemqh-iZA)
+ - Hit the play to see!
+[![EEG-Recording](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://private-user-images.githubusercontent.com/79001628/398819334-02ca060d-524d-43c6-a69d-f96f13dfa2b7.mp4)
 
 
 ---
