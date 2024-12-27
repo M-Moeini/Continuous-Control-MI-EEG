@@ -27,45 +27,45 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
    - Comparison of 4 MI tasks used in terms of classification accuracy.
    - Participant feedback on these MI tasks.
 
-   ![Classification accuracy](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MI-C.png)
-   ![Participant feedback](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TP-C.png)
+   ![Classification accuracy](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MI-C.png)
+   ![Participant feedback](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TP-C.png)
 
 2. **Training Data Requirements**:
    - Determine the minimum amount of training data needed for optimal performance.
 
-   ![Training Data](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TB-C.png)
+   ![Training Data](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TB-C.png)
 
 3. **Epoching, classifiers and Number of Features Comparison**:
    -  Compare Epoching, classifiers and Number of Features.
 
-   ![Training Data](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/WCF-C.png)
+   ![Training Data](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/WCF-C.png)
 
 
 3. **Optimal Configuration**:
    - Best configuration for an online MI-BCI system based on classification accuracy, statistical analysis and the amount of time for training.
 
-   ![Optimal Configuration](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-C.png)
+   ![Optimal Configuration](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-C.png)
 
 4. **Participant Results**:
    - Results summary for all participants on the optimal system.
 
-   ![Participant Results](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-R.png)
+   ![Participant Results](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/Optimal-BCI-R.png)
 
 5. **Misclassification Chart**:
    - Visualization of misclassification trends.
 
-   ![Misclassification Chart](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MISS-R.png)
+   ![Misclassification Chart](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/MISS-R.png)
 
 6. **Switch vs Continuous Comparison**:
    - Comparative results between the two paradigms.
 
-   ![Switch vs Continuous](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-C.png)
-   ![Switch vs Continuous Table](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-Table-C.png)
+   ![Switch vs Continuous](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-C.png)
+   ![Switch vs Continuous Table](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/CS-Table-C.png)
 
 7. **Task Difficulty Ratings**:
    - Participant difficulty ratings results (scale: 1-5).
 
-   ![TDRQ](M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TDRQ-C.png)
+   ![TDRQ](https://github.com/M-Moeini/Continuous-Control-MI-EEG/READMEImgs/TDRQ-C.png)
 
 
 
