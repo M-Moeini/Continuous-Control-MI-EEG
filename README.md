@@ -80,6 +80,36 @@ Hit the play to see!
    ![TDRQ](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/TDRQ-C.png)
 
 
+7. **Statistical Analysis Results**:
+   - **1- Compariosn of Differnt MI Tasks**:
+      - **Friedman Test Results**:
+    
+   - **2- Compariosn of Taining Blocks Size**:
+      - **Friedman Test Results**:
+
+   - **3- Compariosn of Different Window Size**:
+      - **Friedman Test Results**:
+      - **Nemenyi Posthoc Test Results**:
+    
+   - **4- Compariosn of Different Classifiers**:
+      - **Friedman Test Results**:
+      - **Nemenyi Posthoc Test Results**:
+        
+  - **5- Compariosn of MI Tasks in the Optimal Configuration**:
+      - **Friedman Test Results**:
+
+   - **6- Compariosn of Feature Set Size**:
+      - **Wilcoxon Test Results**:
+   
+   - **7- Compariosn of Task Difficulty Ratings**:
+      - **Friedman Test Results**:
+      - **Pearson Test Results**:
+    
+  - **8- Compariosn of Control Paradigm**:
+      - **Mann-Whitney U Test Results**:
+
+
+
 
 ---
 
