@@ -60,8 +60,11 @@ Hit the play to see!
 
 4. **Participant Results**:
    - Results summary for all participants on the optimal system.
+    ![Participant Results](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/Optimal-BCI-R.png)
 
-   ![Participant Results](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/Optimal-BCI-R.png)
+   - Hit map showing how participants chose their favourite tasks and how this is mathed with their highest tasks classification on the optimal configuration set.
+   ![Hit Map](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/HitMap.png)
+  
 
 5. **Misclassification Chart**:
    - Visualization of misclassification trends.
