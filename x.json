@@ -1,0 +1,7 @@
+{
+    "forceReCreateRepo": true,
+    "targetRepoPath": "Continuous-Control-MI-EEG",
+    "sourceRepoPath": ".",
+    "allowedPaths": ["/*"],
+    "ignoredPaths": ["SCSSP/*"]
+}
