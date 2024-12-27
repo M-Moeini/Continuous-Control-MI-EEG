@@ -4,6 +4,12 @@
 ## Overview
 This project investigates the use of Motor Imagery (MI) Electroencephalography (EEG) signals in building an optimal MI-BCI (Brain-Computer Interface) system. Data was collected from 15 healthy participants performing Motor Imagery tasks (Hand, Feet, Tongue, Singing MI) for durations of 8-20 seconds. 
 
+![EEG-Setup](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/EEG-Setup.jpg)
+
+
+**Recording Session**:
+ - ![EEG-Recording](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/EEG-Recording.mp4)
+
 
 ---
 
