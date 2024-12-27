@@ -6,7 +6,7 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 
 ![EEG-Setup](https://github.com/M-Moeini/Continuous-Control-MI-EEG/blob/main/READMEImgs/EEG-Setup.jpg)
 
-
+## 
 
 
 **Recording Session**:
