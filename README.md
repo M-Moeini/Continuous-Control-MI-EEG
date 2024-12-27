@@ -81,6 +81,8 @@ Hit the play to see!
 
 
 7. **Statistical Analysis Results**:
+   Overall 5 different tests were used based on the purpose of the compariosn and the distribution of the data. ( Friedman, Nemenyi, Wilcoxon, Mann-Whitney U, Pearson)
+   
    - **1- Compariosn of Differnt MI Tasks**:
       - **Friedman Test Results**:
     
