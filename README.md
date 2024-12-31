@@ -8,7 +8,6 @@ This project investigates the use of Motor Imagery (MI) Electroencephalography (
 
 ## 
 
-
 **Recording Session**:
 Hit the play to see!
 
